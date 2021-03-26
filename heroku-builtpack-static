@@ -1,0 +1,12 @@
+[buildpack]
+name = "Static HTML"
+
+  [publish.Ignore]
+  files = [
+    ".github/",
+   
+    "index.html",
+    "style.css",
+    "app.js",
+   
+  ]
